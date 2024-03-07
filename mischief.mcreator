@@ -1,0 +1,666 @@
+{
+  "mod_elements": [
+    {
+      "name": "MischiefIcon",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mischief_icon"
+    },
+    {
+      "name": "Mischief",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mischief"
+    },
+    {
+      "name": "Drunk",
+      "type": "potioneffect",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drunk"
+    },
+    {
+      "name": "Beer",
+      "type": "potion",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer"
+    },
+    {
+      "name": "Shockbolt",
+      "type": "enchantment",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shockbolt"
+    },
+    {
+      "name": "BeerRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer_recipe"
+    },
+    {
+      "name": "Crazyiwascrazyonce",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crazyiwascrazyonce"
+    },
+    {
+      "name": "Asylumwallrecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asylumwallrecipe"
+    },
+    {
+      "name": "Ambatukam",
+      "type": "fluid",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambatukam",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "ValveItem",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valve_item"
+    },
+    {
+      "name": "ValveBlockCusWhyNot",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valve_block_cus_why_not"
+    },
+    {
+      "name": "ValveBlockWithoutTriggers",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valve_block_without_triggers"
+    },
+    {
+      "name": "ValveDimension",
+      "type": "dimension",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valve_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "ProcedureGoToValveDimension",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_go_to_valve_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PorcedureGoBa",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcedure_go_back",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoBackBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_back_block"
+    },
+    {
+      "name": "ValveDimesionReturnBlock",
+      "type": "biome",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valve_dimesion_return_block"
+    },
+    {
+      "name": "ValveItemRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valve_item_recipe"
+    },
+    {
+      "name": "Valveblockrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valveblockrecipe"
+    },
+    {
+      "name": "Valvegen",
+      "type": "biome",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valvegen"
+    },
+    {
+      "name": "Deathbyuranium",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbyuranium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UraniumItem",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_item"
+    },
+    {
+      "name": "Uraniumparticle",
+      "type": "particle",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumparticle"
+    },
+    {
+      "name": "Deathbyuranium10x",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbyuranium_10x",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium"
+    },
+    {
+      "name": "UraniumHexafloride",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_hexafloride"
+    },
+    {
+      "name": "BoilerGUI",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiler_gui"
+    },
+    {
+      "name": "Boiler",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiler",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoilerBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiler_block"
+    },
+    {
+      "name": "UraniumIsotope238",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_isotope_238"
+    },
+    {
+      "name": "UraniumIsotope237",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_isotope_237"
+    },
+    {
+      "name": "UraniumIsotope236",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_isotope_236"
+    },
+    {
+      "name": "UraiumIsotope235",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraium_isotope_235"
+    },
+    {
+      "name": "CentrifugeGUI",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrifuge_gui"
+    },
+    {
+      "name": "CentrifugeBlock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrifuge_block"
+    },
+    {
+      "name": "Centrifuge",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrifuge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deathbyuraniumhalf",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbyuraniumhalf",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiationLowerer",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_lowerer"
+    },
+    {
+      "name": "Radiationlowererrecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiationlowererrecipe"
+    },
+    {
+      "name": "Uraniumpiecelet",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumpiecelet"
+    },
+    {
+      "name": "Uraniumnuggetrecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumnuggetrecipe"
+    },
+    {
+      "name": "Uraniumingotrecipe1",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingotrecipe_1"
+    },
+    {
+      "name": "Uraniumblock",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumblock"
+    },
+    {
+      "name": "Uraniumingotrecipe2",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingotrecipe_2"
+    },
+    {
+      "name": "Uraniumblockrecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumblockrecipe"
+    },
+    {
+      "name": "Boilerecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boilerecipe"
+    },
+    {
+      "name": "Centrifugerecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrifugerecipe"
+    },
+    {
+      "name": "Uranium235Nugget",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_235_nugget"
+    },
+    {
+      "name": "Deathbyuranium100x",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbyuranium_100x",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uranim235Ingot",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranim_235_ingot"
+    },
+    {
+      "name": "Uranium235Block",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_235_block"
+    },
+    {
+      "name": "Uraniumnuggetrecipe1",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumnuggetrecipe_1"
+    },
+    {
+      "name": "Pureuraniumnuggetrecipe2",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pureuraniumnuggetrecipe_2"
+    },
+    {
+      "name": "Pureuraniumingotrecipe1",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pureuraniumingotrecipe_1"
+    },
+    {
+      "name": "Pureuraniumingotrecipe2",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pureuraniumingotrecipe_2"
+    },
+    {
+      "name": "Uraniumblockpurerecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumblockpurerecipe"
+    },
+    {
+      "name": "UraniumCore",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_core"
+    },
+    {
+      "name": "Uraniumcorerecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcorerecipe"
+    },
+    {
+      "name": "LEGALIZENUCLEARBOMBS",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legalizenuclearbombs"
+    },
+    {
+      "name": "LEGALIZENUCLEARBOMBSbombtrigger",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legalizenuclearbomb_sbombtrigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiationLowererPro",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_lowerer_pro"
+    },
+    {
+      "name": "Radiationlowererprorecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiationlowererprorecipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mischief.mischief_icon": "Mischief Icon",
+      "item.mischief.uranim_235_ingot": "Pure Uranium Ingot",
+      "block.mischief.uraniumblock": "Uranium Block",
+      "biome.mischief.valvegen": "Valve",
+      "item.mischief.uraniumpiecelet": "Uranium Nugget",
+      "item.minecraft.potion.effect.beer": "Beer",
+      "effect.drunk": "DRUNK",
+      "item.minecraft.splash_potion.effect.beer": "Breakable Beer Glass",
+      "item.mischief.uranium_235_nugget": "Pure Uranium Nugget",
+      "item.minecraft.lingering_potion.effect.beer": "Lingering Beer",
+      "fluid.mischief.ambatukam": "Suspicious White Liquid",
+      "item.mischief.valve_dimension": "item.mischief.valve_dimension",
+      "item.mischief.uranium_isotope_236": "Uranium Isotope ",
+      "item.mischief.uraium_isotope_235": "Uranium Isotope ",
+      "item.mischief.uranium_isotope_237": "Uranium Isotope ",
+      "item.mischief.uranium_isotope_238": "Uranium Isotope ",
+      "item.mischief.radiation_lowerer": "Radiation Protector",
+      "item.mischief.valve_item": "Valve Item",
+      "biome.mischief.valve_dimesion_return_block": "Valve Dimesion Return",
+      "enchantment.mischief.shockbolt": "Shockbolt",
+      "block.mischief.legalizenuclearbombs": "Mischief™ Nuclear Bomb (WORK IN PROGRESS)",
+      "block.mischief.ambatukam": "Suspicious White Liquid",
+      "block.mischief.uranium_core": "Uranium Core",
+      "item.minecraft.tipped_arrow.effect.beer": "Breathalyzer Failer",
+      "block.mischief.boiler_block": "Boiler",
+      "block.mischief.go_back_block": "Go Back Block",
+      "itemGroup.tabmischief": "Mischief",
+      "block.mischief.valve_block_cus_why_not": "Valve Block ",
+      "block.mischief.uranium_235_block": "Block of Pure Uranium",
+      "item.mischief.ambatukam_bucket": "Chum Bucket without the \"h\"",
+      "item.mischief.radiation_lowerer_pro": "Radiation Protector Pro",
+      "item.mischief.uranium_item": "Uranium",
+      "block.mischief.crazyiwascrazyonce": "Asylum Cell Wall",
+      "block.mischief.valve_block_without_triggers": "block.mischief.valve_block_without_triggers",
+      "block.mischief.centrifuge_block": "Centrifuge",
+      "death.attack.uranium": "%1$s was killed by uranium poisoning",
+      "item.mischief.uranium_hexafloride": "Uranium Hexaflouride (Uranium Gas)",
+      "block.mischief.uranium": "Uranium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mischief",
+    "modName": "Mischief",
+    "version": "Version 1.0",
+    "description": "genreal release",
+    "author": "xdec",
+    "websiteURL": "https://youtube.com/@xdec/",
+    "license": "CAT EXODUS",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "made by xdec, made with mcreator",
+    "modElementsPackage": "mod.xdeccatexodus.mischievious",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
