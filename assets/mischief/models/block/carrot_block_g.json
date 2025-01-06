@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mischief:blocks/screenshot_2442",
+    "up": "mischief:blocks/screenshot_2442",
+    "north": "mischief:blocks/screenshot_2442",
+    "east": "mischief:blocks/screenshot_2442",
+    "south": "mischief:blocks/screenshot_2442",
+    "west": "mischief:blocks/screenshot_2442",
+    "particle": "mischief:blocks/screenshot_2442"
+  }
+}
