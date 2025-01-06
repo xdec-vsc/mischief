@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[43,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
@@ -10,14 +10,12 @@ credits="lesgo"
 displayURL="https://youtube.com/@xdec"
 logoFile="logo.png"
 authors="xdec"
-description='''
-this is (not rat's) mischief
-'''
+description="this is (not rat's) mischief"
 
 [[dependencies.mischief]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 

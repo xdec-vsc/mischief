@@ -8,5 +8,6 @@
     "south": "mischief:blocks/ffdsg",
     "west": "mischief:blocks/ffdsg",
     "particle": "mischief:blocks/ffdsg"
-  }
+  },
+  "render_type": "solid"
 }

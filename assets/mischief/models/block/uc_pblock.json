@@ -8,5 +8,6 @@
     "south": "mischief:blocks/upcside",
     "west": "mischief:blocks/upcside",
     "particle": "mischief:blocks/upcbottom"
-  }
+  },
+  "render_type": "solid"
 }

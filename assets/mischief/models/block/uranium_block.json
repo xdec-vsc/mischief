@@ -8,5 +8,6 @@
     "south": "mischief:blocks/untitled_design_2",
     "west": "mischief:blocks/untitled_design_2",
     "particle": "mischief:blocks/untitled_design_2"
-  }
+  },
+  "render_type": "solid"
 }

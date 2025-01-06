@@ -8,5 +8,6 @@
     "south": "mischief:blocks/screenshot_2442",
     "west": "mischief:blocks/screenshot_2442",
     "particle": "mischief:blocks/screenshot_2442"
-  }
+  },
+  "render_type": "solid"
 }
