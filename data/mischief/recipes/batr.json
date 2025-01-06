@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "mischief:cathode"
+    },
+    "1": {
+      "item": "minecraft:glass_bottle"
+    },
+    "2": {
+      "item": "mischief:anode"
+    }
+  },
+  "result": {
+    "item": "mischief:battery_cell",
+    "count": 2
+  }
+}
