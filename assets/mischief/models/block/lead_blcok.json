@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mischief:block/untitled_design_4",
+    "up": "mischief:block/untitled_design_4",
+    "north": "mischief:block/untitled_design_4",
+    "east": "mischief:block/untitled_design_4",
+    "south": "mischief:block/untitled_design_4",
+    "west": "mischief:block/untitled_design_4",
+    "particle": "mischief:block/untitled_design_4"
+  },
+  "render_type": "solid"
+}

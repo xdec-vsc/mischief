@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:clay_ball"
+    },
+    "b": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "mischief:industrial_glue",
+    "count": 16
+  }
+}

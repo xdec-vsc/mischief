@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "mischief:battery_cell"
+    },
+    "b": {
+      "item": "mischief:uranium"
+    }
+  },
+  "result": {
+    "item": "mischief:uranium_battery_cell",
+    "count": 1
+  }
+}

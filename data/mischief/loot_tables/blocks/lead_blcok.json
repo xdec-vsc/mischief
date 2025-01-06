@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mischief:blocks/lead_blcok",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mischief:lead_blcok"
+        }
+      ]
+    }
+  ]
+}

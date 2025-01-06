@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "mischief:lead_plate"
+    },
+    "b": {
+      "item": "mischief:uranium_battery_cell"
+    }
+  },
+  "result": {
+    "item": "mischief:uc_pblock",
+    "count": 1
+  }
+}
