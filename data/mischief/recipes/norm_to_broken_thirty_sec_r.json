@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mischief:thirty_sec_resurgence"
+  },
+  "result": {
+    "item": "mischief:broken_thirty_sec_resurgence"
+  }
+}

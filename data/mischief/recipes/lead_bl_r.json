@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    },
+    {
+      "item": "mischief:lead"
+    }
+  ],
+  "result": {
+    "item": "mischief:lead_blcok",
+    "count": 1
+  }
+}

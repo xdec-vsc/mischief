@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="mischief"
+version="2.0"
+displayName="Mischief"
+credits="xdeccatexodus"
+displayURL="https://youtube.com/@xdec"
+logoFile="logo.png"
+authors="xdec"
+description='''
+i have been working for the last three weeks even though its been 3 months since the last updater
+'''
+
+[[dependencies.mischief]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

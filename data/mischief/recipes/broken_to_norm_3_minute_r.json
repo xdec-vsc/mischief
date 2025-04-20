@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "mischief:uranium"
+    },
+    "3": {
+      "item": "mischief:uranium"
+    },
+    "4": {
+      "item": "mischief:broken_three_minute_resurgence"
+    },
+    "5": {
+      "item": "mischief:uranium"
+    },
+    "7": {
+      "item": "mischief:uranium"
+    }
+  },
+  "result": {
+    "item": "mischief:three_minute_resurgence",
+    "count": 1
+  }
+}

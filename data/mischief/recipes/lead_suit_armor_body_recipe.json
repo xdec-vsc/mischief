@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mischief:lead_plate"
+    },
+    "2": {
+      "item": "mischief:lead_plate"
+    },
+    "3": {
+      "item": "mischief:lead_plate"
+    },
+    "4": {
+      "item": "mischief:lead_plate"
+    },
+    "5": {
+      "item": "mischief:lead_plate"
+    },
+    "6": {
+      "item": "mischief:lead_plate"
+    },
+    "7": {
+      "item": "mischief:lead_plate"
+    },
+    "8": {
+      "item": "mischief:lead_plate"
+    }
+  },
+  "result": {
+    "item": "mischief:lead_suit_armor_chestplate",
+    "count": 1
+  }
+}

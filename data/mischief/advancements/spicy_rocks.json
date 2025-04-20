@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "mischief:uranium"
+    },
+    "title": {
+      "translate": "advancements.spicy_rocks.title"
+    },
+    "description": {
+      "translate": "advancements.spicy_rocks.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spicy_rocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mischief:uranium",
+            "count": {
+              "min": 1,
+              "max": 999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris"
+}

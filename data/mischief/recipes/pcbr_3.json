@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mischief:phantom_raw_beef"
+  },
+  "result": {
+    "item": "mischief:phantom_cooked_beef"
+  }
+}

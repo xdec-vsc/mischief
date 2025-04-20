@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 30,
+  "cookingtime": 450,
+  "ingredient": {
+    "item": "mischief:phantom_raw_beef"
+  },
+  "result": {
+    "item": "mischief:phantom_cooked_beef"
+  }
+}

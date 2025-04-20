@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "1": {
+      "item": "mischief:uranium"
+    },
+    "2": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "3": {
+      "item": "mischief:uranium"
+    },
+    "4": {
+      "item": "mischief:broken_ninety_sec_resurgance"
+    },
+    "5": {
+      "item": "mischief:uranium"
+    },
+    "6": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "7": {
+      "item": "mischief:uranium"
+    },
+    "8": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "mischief:broken_three_minute_resurgence",
+    "count": 1
+  }
+}
