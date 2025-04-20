@@ -1,0 +1,12 @@
+{
+  "boyyoushouldknow_jpegmafia": {
+    "category": "music",
+    "subtitle": "subtitles.boyyoushouldknow_jpegmafia",
+    "sounds": [
+      {
+        "name": "mischief:jpegmafia-i-lay-down-my-life-for-you-_director_s-c-16-boy-you-should-know_",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mischief:blocks/ffdsg",
+    "up": "mischief:blocks/ffdsg",
+    "north": "mischief:blocks/ffdsg",
+    "east": "mischief:blocks/ffdsg",
+    "south": "mischief:blocks/ffdsg",
+    "west": "mischief:blocks/ffdsg",
+    "particle": "mischief:blocks/ffdsg"
+  }
+}
